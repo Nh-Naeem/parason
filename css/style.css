@@ -1,0 +1,459 @@
+/*    --indigo: #6610f2;
+    --purple: #6f42c1;*/
+
+/*font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #21146a;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px 0;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: #1b1b2e;
+}
+.header-btn{
+    padding: 12px 30px;
+    border-radius: 40px;
+    background: white;
+    border: 1px solid #21146a;
+    font-weight: 700;
+    transition: .5s ease-in-out;
+}
+.header-btn:hover{
+    background: transparent;
+    color: white;
+    border:2px solid white;
+    transition: .5s ease-in-out;
+}
+.navbar-brand{
+    *font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: white !important;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 17px;
+    color: white !important;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+    width: 100%;
+    background: #21146a;
+    height: 100vh;
+    position: relative;
+}
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+} */
+.banner-btn{
+    padding: 13px 35px;
+    border-radius: 40px;
+    background: white;
+    border: 1px solid #21146a;
+    font-weight: 700;
+    transition: .5s ease-in-out;
+}
+.banner-btn:hover{
+    background: transparent;
+    color: white;
+    border:2px solid white;
+    transition: .5s ease-in-out;
+}
+.banner .row{
+    height: 100vh;
+    align-items: center;
+}
+.banner-txt{
+ padding: 40px;
+}
+.banner-txt h1 {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+}
+.banner-txt p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*banner end*/
+
+/*about start*/
+.about{
+    width: 100%;
+    padding: 80px 0;
+}
+.service-1 h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 46px;  
+}
+
+.title p{
+    margin: 0 210px;
+    font-family: 'Roboto', sans-serif;
+}
+.second{
+    margin: 60px 0;
+}
+.service-1{
+    border: 1px solid #FAF9FF;
+    background: #FAF9FF;
+    padding: 20px 30px;
+    transition: .5s ease-in-out;
+}
+.service-1 h3{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.service-1 i{
+    font-size: 40px;
+}
+.service-1 p{
+    font-family: 'Roboto', sans-serif;
+}
+.service-1:hover{
+    box-shadow: 0px 10px 15px -7px;
+    background: #fff;
+    transition: .5s ease-in-out;
+}
+/*about end*/
+
+/*feature start*/
+.feature{
+    width: 100%;
+    background: #FAF9FF;
+    padding: 80px 0;
+}
+.feature h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.feature p{
+    font-family: 'Roboto', sans-serif;
+}
+.feature-btn{
+    padding: 13px 35px;
+    background: transparent;
+    border: none;
+    border: 2px solid #21146a;
+    border-radius: 35px;
+    font-weight: 700;
+    transition: .5s ease-in-out;
+}
+.feature-btn:hover{
+    background:#21146a ;
+    color: white;
+    transition: .5s ease-in-out;
+}
+/*feature end*/
+
+/*offer start*/
+.offer{
+    width: 100%;
+    margin: 80px 0;
+}
+.offer-section{
+    margin-top: 100PX;
+}
+.offer-content h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.offer-content p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 210px;
+}
+.content-1{
+    border: 1px solid #FAF9FF;
+    background: #FAF9FF;
+    padding: 20px
+}
+.left-offer{
+    margin-top: -60px;
+}
+/*offer end*/
+
+/*graph start*/
+.graph{
+    width: 100%;
+    padding: 100px 0;
+    background: #FAF9FF;
+}
+.des{
+    padding: 0 20px;  
+}
+.des h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.des p{
+    font-family: 'Roboto', sans-serif;
+}
+.des-btn{
+    padding: 13px 35px;
+    background: transparent;
+    border: none;
+    border: 2px solid #21146a;
+    border-radius: 35px;
+    font-weight: 700;
+    transition: .5s ease-in-out;
+}
+.des-btn:hover{
+    background:#21146a ;
+    color: white;
+    transition: .5s ease-in-out;
+}
+/*graph end*/
+
+/*price start*/
+.price{
+    width: 100%;
+    margin: 80px 0;
+}
+.price-bar h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.price-bar p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 220px;
+}
+.price-1{
+    text-align: center;
+}
+.card-content{
+    margin: 100px 0;
+}
+.card{
+    background:#FAF9FF;
+    transition: .5s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0px 8px 15px 2px;
+    background: #fff;
+    transition: .5s ease-in-out;
+}
+.card:hover .price-btn{
+    background:#21146a ;
+    color: white;
+}
+.card .pricing{
+    vertical-align: middle;
+    font-size: 60px;
+    font-weight: 600;
+}
+.card-header .pricing span{
+    font-size: 35px;
+   position: relative;
+   top: -10px;
+   font-weight: 700;
+}   
+.price-btn{
+    padding: 13px 35px;
+    background: transparent;
+    border: none;
+    border: 2px solid #21146a;
+    border-radius: 35px;
+    font-weight: 700;
+    transition: .5s ease-in-out; 
+}
+a, a:hover{
+    text-decoration: none;
+}
+.price-btn:hover{
+    background:#21146a ;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.card-body ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.card-footer{
+    padding: 35px 0;
+}
+/*price end*/
+
+/*slider-1 start*/
+.slider-1{
+    width: 100%;
+    background: #FAF9FF;
+    margin-bottom: 80px;
+    padding-bottom: 65px;
+}
+.review-heading{
+    padding-top: 90px;
+}
+.review-heading h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px; 
+}
+.review-heading p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 220px;
+}
+.testimonial{
+    padding: 50px 0;
+}
+.testimonial-pic{
+    position: relative;
+    top: 35px;
+    left: 495px;
+}
+.testimonial-content{
+    background: white;
+    padding: 45px;
+}
+.testimonial-content h3{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.testimonial-content p{
+    font-family: 'Roboto', sans-serif;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots{
+    margin-top: 40px;
+}
+.owl-dot.active span{
+    background: #21146a !important;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 30px !important;
+    height: 7px !important;
+}
+button:focus{
+    outline: none !important;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: #21146a !important;
+}
+/*slider-1 end*/
+
+
+
+/*slider 2 start*/
+.slider-2{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.owl-carousel .owl-item img{
+    width: auto !important;
+}
+.slider-2 img{
+    filter: grayscale(1);
+    opacity: .2;
+}
+.slider-2 img:hover{
+    filter: none;
+    opacity: 1;
+}
+/*slider 2 end*/
+
+/*footer start*/
+footer{
+    width: 100%;
+    background-color: #0e1424;
+    margin-top: 60px;
+    padding: 90px 0;
+}
+.footer-content ul li{
+    list-style: none;
+    color: #797979;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+    font-size: 15px;
+}
+.footer-content ul li h4{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+}
+ p{
+    color: #797979 ;
+    font-family: 'Roboto', sans-serif;
+}
+input {
+    width: 250px;
+    height: 50px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 0 15px;
+}
+.box button{
+    position: relative;
+    top: -59px;
+    left: 210px;
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid white;
+}
+.last{
+    margin-top: 50px;
+}
+.icons{
+    padding-left: 230px; 
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background: rgba(255,255,255,0.1);
+    line-height: 35px;
+    transition: .5s;
+}
+.icons ul li:hover{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+/*footer end*/
